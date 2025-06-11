@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        a:active{
+            color: yellow;
+        }
+        a:visited{
+            background-color: blue;
+        }
+        a:hover{
+            color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter Your Username">
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" placeholder="Enter Your Password">
+        </div>
+
+        <div>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="gemale">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter Your Comment</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50">
+
+           </textarea>
+        </div>
+        <div>
+           <select name="Fruits">
+            <option value="Grapes">Grapes</option>
+            <option value="Orange">Orange</option>
+            <option value="Mango">Mango</option>
+            <option value="Banana">Banana</option>
+           </select>
+        </div>
+
+    </form>
+
+     <div>
+           <select name="Fruits">
+            <option value="Grapes">Grapes</option>
+            <option value="Orange">Orange</option>
+            <option value="Mango">Mango</option>
+            <option value="Banana">Banana</option>
+           </select>
+        </div>
+
+        <a href="https://www.google.com">Go to Google</a>
+
+</body>
+
+</html>
